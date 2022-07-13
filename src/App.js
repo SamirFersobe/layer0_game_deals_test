@@ -18,7 +18,7 @@ import {
 
 export default function App(){
   return(
-    <Router>
+    <Router >
     <Switch>
       <Route path="/about">
         <About_page />

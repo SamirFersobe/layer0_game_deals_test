@@ -1,19 +1,33 @@
 import './FeatureBox.css'
 import React from 'react'
 
-export default function FeatureBox(task) {
+
+function openOffer(e,link){
+    e.preventDefault();
+    console.log('You clicked submit.');
+
+}
+
+export default function FeatureBox(offer) {
+    let dealLink = `https://www.cheapshark.com/redirect?dealID=${offer.dealID}`
     return (
         <div className="feature-box shadow">
-            <img src= {task.itemImageSrc}></img>
+            <img src= {offer.thumb}></img>
                 <div className="feature-box-model">
-                    {task.itemDescription}
+                    {offer.title}
                 </div>
                 <div className="feature-box-price">
-                    {task.itemPrice}
+                    
+                    ${offer.salePrice}
                 </div>
-                <button id ={task.id} type="button" >
-                    Add to Cart
-                </button><br></br>
+                <center>
+                <a id ={offer.id}  href={dealLink} target="_blank" >
+               go to deal
+                </a>
+                </center>
+                
+                {/*  */}
         </div>
     )
 }
+// href={`https://www.cheapshark.com/redirect?dealID=${offer.dealID}
