@@ -90,12 +90,24 @@ function Contact_page(){
   )
 }
 
+
+
+
 function Store_page(){
   return(
     <div className= 'container shadow'>
     <Header   />
     <HeaderBanner type='main' />
-    <h1>Store</h1>
+    
+
+    <h1> Hi </h1>
+    {
+    
+    
+     }
+    <Button />
+
+    <HomeProductsDisplay />
     <FooterBanner  type='main' />
     <Footer />
   </div>

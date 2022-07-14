@@ -2,7 +2,7 @@ import {useState,useEffect} from 'react'
 import './HomeProductsDisplay.css';
 import FeatureBox from './FeatureBox';
 
-
+// takes in the upper price limit and react hook for setting it 
 function gameTitles(upperPrice,setOffers){
     const promise = fetch(`https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=${upperPrice}`)
     .then(response =>response.json())
@@ -24,7 +24,7 @@ function generateResults(results,setOffers){
 
 
 export default function HomeProductsDisplay() {
-
+//dummy data for starting
 let initialOffer = [
     {
         internalName: "LOSTORBITTERMINALVELOCITY",
@@ -79,7 +79,8 @@ let initialOffer = [
 
 ]
 const [offers,setOffers] = useState(initialOffer);
-// gameTitles(15,setOffers)
+
+gameTitles(15,setOffers)
     return (
         <div　className = "feature">
             <div className = "feature-text">

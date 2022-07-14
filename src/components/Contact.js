@@ -19,9 +19,9 @@ export default function Contact() {
         </div>
         <div className="feature-box-text-contact">
             <p className="feature-box-text-adjust-contact">
-                <a href="#facebook"><img src="./images/facebook_social_media.png" alt="facebook"></img></a>
-                <a href="#facebook"><img src="./images/twitter_social_media.png" alt="facebook"></img></a>
-                <a href="#facebook"><img src="./images/google_plus_social_media.png" alt="facebook"></img></a>
+                <a href="#facebook"><img src="/public/images/facebook_social_media.png" alt="facebook"></img></a>
+                <a href="#facebook"><img src="/public/images/twitter_social_media.png" alt="facebook"></img></a>
+                <a href="#facebook"><img src="/public/images/google_plus_social_media.png" alt="facebook"></img></a>
             </p>
         </div>
     </div>
