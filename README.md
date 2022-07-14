@@ -1,2 +1,1 @@
-This is a REACT  SPA version of the atom_website_design project with the goal of teaching myself react and other front-end related technologies.
-
+#### This is a test version of a React SPA website that uses Layer0/AppOps to generate fast websites.
