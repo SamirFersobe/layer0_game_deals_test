@@ -74,12 +74,13 @@ nav {
 }
 
 .menu-item {
-	width: 40px;
+	width: 60px;
 	display: block;
     float: right;
     text-align: center;
     padding: 30px 16px;
     background-color: #FFFFFF;
+	font-size: larger;
 
 }
 

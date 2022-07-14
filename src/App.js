@@ -100,12 +100,7 @@ function Store_page(){
     <HeaderBanner type='main' />
     
 
-    <h1> Hi </h1>
-    {
-    
-    
-     }
-    <Button />
+
 
     <HomeProductsDisplay />
     <FooterBanner  type='main' />
